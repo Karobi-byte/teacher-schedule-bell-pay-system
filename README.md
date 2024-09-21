@@ -46,6 +46,32 @@ The project resulted in a consolidated dataset that includes teacher schedules a
 3. **Output**:
    - A well-organized Excel sheet that can be used by the school to manage substitute teacher payments efficiently.
 
+## Results and Outputs
+
+### Teacher Scheduling System Output
+- The final dataset generated contains the full teacher schedule, including their prep periods for the entire school year.
+
+Example preview of the dataset:
+
+| DATE      | Teacher Name    | Schedule      | Has Prep |
+| --------- | --------------- | ------------- | -------- |
+| 7/24/24   | John Doe        | P1, P3, P5, P7| Yes      |
+| 7/25/24   | Jane Smith      | P2, P4, P6, P7| No       |
+
+### Pay Management System Output
+- A master Excel sheet for substitute teachers has been created with detailed pay codes and employee information.
+
+Here’s a sample of the final pay management dataset:
+
+| Employee Name  | Pay Code | Account | Title        |
+| -------------- | -------- | ------- | ------------ |
+| Alex Johnson   | PC123    | ACC001  | Substitute   |
+| Maria Davis    | PC124    | ACC002  | Teacher      |
+
+**Dataset File:** [Final.csv](datasets/Final.csv)
+
+**Notebook File:** [Untitled15.ipynb](notebooks/Untitled15.ipynb)
+
 ## How to Use
 
 ### Prerequisites
